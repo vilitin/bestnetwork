@@ -4,7 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Регистрация</title>
+<%@ include file="common/materialize_header.inc.jsp" %>
+<%@ include file="common/materialize_topbar.inc.jsp" %>
 </head>
 <body>
 
@@ -21,90 +23,51 @@
 
                 <div class="card">
                     <div class="card-content black-text">
-                        <span class="card-title"><?php echo $LANG['page-signup']; ?></span>
-                        <p class="red-text" style="margin-top: 10px; margin-bottom: 10px; <?php if (!$error) echo "display: none"; ?>">
+                        <span class="card-title">Регистрация</span>
+                        <p class="red-text" style="margin-top: 10px; margin-bottom: 10px; Ошибка">
                            
                         </p>
 
                       
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <ul class="collection">
-                                        <li class="collection-item avatar">
+                        
 
-                                          
-
-                                            <!--                                                <img src="images/yuna.jpg" alt="" class="circle">-->
-                                            <span class="title"><a target="_blank" href="https://www.facebook.com/app_scoped_user_id/<?php echo $_SESSION['oauth_id']; ?>"><?php echo $_SESSION['oauth_name']; ?></a></span>
-                                            <p><?php echo $LANG['label-authorization-with-facebook']; ?>
-                                                <br>
-                                                <a href="/facebook"><?php echo $LANG['action-back-to-default-signup']; ?></a>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <?php
-
-                        } else {
-
-                            if (FACEBOOK_AUTHORIZATION) {
-
-                                ?>
-
-                                <div class="row">
-                                    <div class="input-field col s12">
-                                        <a class="fb-icon-btn fb-btn-large btn-facebook" href="/facebook/signup">
-                                        <span class="icon-container">
-                                            <i class="icon icon-facebook"></i>
-                                        </span>
-                                            <?php echo $LANG['action-signup-with'] . " " . $LANG['label-facebook']; ?>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <?php
-                            }
-                        }
-
-                        ?>
+                              
 
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="username" type="text" class="validate valid" name="username" value="<?php echo $user_username; ?>">
-                                <label for="username" class="active"><?php echo $LANG['label-username']; ?></label>
+                                <input id="username" type="text" class="validate valid" name="username" value="">
+                                <label for="username" class="active">Логин</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="fullname" type="text" class="validate valid" name="fullname" value="<?php echo $user_fullname; ?>">
-                                <label for="fullname" class="active"><?php echo $LANG['label-fullname']; ?></label>
+                                <input id="fullname" type="text" class="validate valid" name="fullname" value="">
+                                <label for="fullname" class="active">Ваше Имя</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
                                 <input id="password" type="password" class="validate valid" name="password" value="">
-                                <label for="password" class="active"><?php echo $LANG['label-password']; ?></label>
+                                <label for="password" class="active">Пароль</label>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="email" type="text" class="validate valid" name="email" value="<?php echo $user_email; ?>">
-                                <label for="email" class="active"><?php echo $LANG['label-email']; ?></label>
+                                <input id="email" type="text" class="validate valid" name="email" value="">
+                                <label for="email" class="active">Ваша электронная почта (Email)</label>
                             </div>
                         </div>
 
                         <div class="row" style="margin-bottom: 0px">
                             <div class="col s12">
-                                <label><?php echo $LANG['label-signup-confirm']; ?></label>
-                                <a style="font-size: 0.8rem;" href="/terms"><?php echo $LANG['page-terms']; ?></a>
+                                <label></label>
+                                <a style="font-size: 0.8rem;" href="terms.jsp">Правила</a>
                             </div>
                         </div>
                     </div>
                     <div class="card-action">
-                        <button class="waves-effect waves-light btn <?php echo SITE_THEME; ?>"><?php echo $LANG['action-signup']; ?></button>
+                        <button class="waves-effect waves-light btn <?php echo SITE_THEME; ?>">Зарегистрироваться</button>
                     </div>
                 </div>
             </form>

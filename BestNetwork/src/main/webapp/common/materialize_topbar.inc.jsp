@@ -9,10 +9,14 @@
                     <a href="index.jsp" class="brand-logo">Best Network</a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="signup">Зарегистрироваться</a></li>
+                                            <li><a href="login.jsp">Войти</a></li>
+                    
+                        <li><a href="signup.jsp">Зарегистрироваться</a></li>
                     </ul>
                     <ul class="side-nav" id="mobile-demo">
-                        <li><a href="signup">Зарегистрироваться</a></li>
+                        <li><a href="signup.jsp">Зарегистрироваться</a></li>
+                                                <li><a href="login.jsp">Войти</a></li>
+                        
                     </ul>
                 </div>
             </nav>
