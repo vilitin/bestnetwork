@@ -50,11 +50,11 @@
 		<a id="menu-close" href="#" class="close-btn toggle"><i class="ion-ios-close-empty"></i></a>
 	    <ul class="sidebar-nav">
 		    <li><a href="#home">Home</a></li>
-			<li><a href="https://asterios.ws/login"><?php echo $LANG['topbar-signin']; ?></a></li>
-			<li><a href="https://asterios.ws/signup"><?php echo $LANG['topbar-signup']; ?></a></li>
-			<li><a href="https://play.google.com/store/apps/details?id=ru.mrvilitin.network">Android App</a></li>
+			<li><a href="/login"><?php echo $LANG['topbar-signin']; ?></a></li>
+			<li><a href="/signup"><?php echo $LANG['topbar-signup']; ?></a></li>
+			<!--  li><a href="https://play.google.com/store/apps/details?id=ru.mrvilitin.network">Android App</a></li>
 			<li><a href="https://403.asterios.ws/macos.php">MacOS App</a></li>
-			<li><a href="https://asterios.ws/developers"><?php echo $LANG['dv-mrvilitin']; ?></a></li>
+			<li><a href="https://asterios.ws/developers"><?php echo $LANG['dv-mrvilitin']; ?></a></li-->
 
 
 	    </ul>
@@ -65,7 +65,7 @@
 	<header class="sticky" id="header">
 		<section class="container">
 			<section class="row" id="logo_menu">
-				<section class="col-xs-8"><a class="logo" href="">Asterios Network</a></section>
+				<section class="col-xs-8"><a class="logo" href="">Best Network</a></section>
 				<section class="col-xs-4"><a id="menu-toggle" href="#" class="toggle wow rotateIn" data-wow-delay="1s"><i class="ion-navicon"></i></a></section>
 			</section>
 		</section>
@@ -80,10 +80,10 @@
 			<section class="row">
 				<div class="col-md-6">
 					<div class="headings">
-						<h1 class="wow animated fadeInDown"><?php echo $LANG['mrvt-kryt']; ?></h1>
-						<p class="wow animated fadeInLeft"><?php echo $LANG['mrvt-opis']; ?></p>
+						<h1 class="wow animated fadeInDown">Это потрясающе!</h1>
+						<p class="wow animated fadeInLeft">Бесплатная кроссплатформенная социальная сеть для смартфонов и других устройств, позволяющая обмениваться текстовыми сообщениями и медиафаилами различных форматов.!</p>
 						<div class="row">
-							<div class="col-xs-6 col-sm-6 col-md-5">
+							<!--  div class="col-xs-6 col-sm-6 col-md-5">
 								<div>
 									<a href="https://play.google.com/store/apps/details?id=ru.mrvilitin.network" class="polo-btn store wow animated bounceInUp"><i class="ion-social-android"></i> Play Store</a>
 								</div>
@@ -93,30 +93,30 @@
 								<div>
 									<a href="https://403.asterios.ws/macos.php" class="polo-btn store wow animated bounceInUp"><i class="ion-social-apple"></I> MacOS</a>
 								</div>
-							</div>
+							</div-->
 
 
 							<div class="col-xs-6 col-sm-6 col-md-5">
 								<div>
-									<a href="https://asterios.ws/login" class="polo-btn store wow animated bounceInUp"></i> <?php echo $LANG['topbar-signin']; ?></a>
+									<a href="/login" class="polo-btn store wow animated bounceInUp"></i> Вход</a>
 								</div>
 							</div>
 
 <div class="col-xs-6 col-sm-6 col-md-5">
 								<div>
-									<a href="https://asterios.ws/signup" class="polo-btn store wow animated bounceInUp"></i> <?php echo $LANG['topbar-signup']; ?></a>
+									<a href="/signup" class="polo-btn store wow animated bounceInUp"></i> Регистрация</a>
 								</div>
 							</div>
 
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 hidden-xs hidden-sm">
+				<!-- div class="col-md-6 hidden-xs hidden-sm">
 					<div class="hand-container">
 					<img class="iphone-hand img_res wow animated bounceInUp" data-wow-duration="1.2s" src="assets/img/mrvili.png"></img>
 					<div class="clearfix"></div>
 					</div>
-				</div>
+				</div-->
 			</section>
 		</section>
 	</section>
