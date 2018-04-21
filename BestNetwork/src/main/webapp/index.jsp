@@ -50,8 +50,8 @@
 		<a id="menu-close" href="#" class="close-btn toggle"><i class="ion-ios-close-empty"></i></a>
 	    <ul class="sidebar-nav">
 		    <li><a href="#home">Home</a></li>
-			<li><a href="/login.jsp">Вход</a></li>
-			<li><a href="/signup.jsp">Регистрация</a></li>
+			<li><a href="login.jsp">Вход</a></li>
+			<li><a href="signup.jsp">Регистрация</a></li>
 			<!--  li><a href="https://play.google.com/store/apps/details?id=ru.mrvilitin.network">Android App</a></li>
 			<li><a href="https://403.asterios.ws/macos.php">MacOS App</a></li>
 			<li><a href="https://asterios.ws/developers"><?php echo $LANG['dv-mrvilitin']; ?></a></li-->
@@ -98,13 +98,13 @@
 
 							<div class="col-xs-6 col-sm-6 col-md-5">
 								<div>
-									<a href="/login.jsp" class="polo-btn store wow animated bounceInUp"></i> Вход</a>
+									<a href="login.jsp" class="polo-btn store wow animated bounceInUp"></i> Вход</a>
 								</div>
 							</div>
 
 <div class="col-xs-6 col-sm-6 col-md-5">
 								<div>
-									<a href="/signup.jsp" class="polo-btn store wow animated bounceInUp"></i> Регистрация</a>
+									<a href="signup.jsp" class="polo-btn store wow animated bounceInUp"></i> Регистрация</a>
 								</div>
 							</div>
 
