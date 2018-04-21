@@ -50,8 +50,8 @@
 		<a id="menu-close" href="#" class="close-btn toggle"><i class="ion-ios-close-empty"></i></a>
 	    <ul class="sidebar-nav">
 		    <li><a href="#home">Home</a></li>
-			<li><a href="/login"><?php echo $LANG['topbar-signin']; ?></a></li>
-			<li><a href="/signup"><?php echo $LANG['topbar-signup']; ?></a></li>
+			<li><a href="/login.jsp">Вход</a></li>
+			<li><a href="/signup.jsp">Регистрация</a></li>
 			<!--  li><a href="https://play.google.com/store/apps/details?id=ru.mrvilitin.network">Android App</a></li>
 			<li><a href="https://403.asterios.ws/macos.php">MacOS App</a></li>
 			<li><a href="https://asterios.ws/developers"><?php echo $LANG['dv-mrvilitin']; ?></a></li-->
@@ -98,13 +98,13 @@
 
 							<div class="col-xs-6 col-sm-6 col-md-5">
 								<div>
-									<a href="/login" class="polo-btn store wow animated bounceInUp"></i> Вход</a>
+									<a href="/login.jsp" class="polo-btn store wow animated bounceInUp"></i> Вход</a>
 								</div>
 							</div>
 
 <div class="col-xs-6 col-sm-6 col-md-5">
 								<div>
-									<a href="/signup" class="polo-btn store wow animated bounceInUp"></i> Регистрация</a>
+									<a href="/signup.jsp" class="polo-btn store wow animated bounceInUp"></i> Регистрация</a>
 								</div>
 							</div>
 
@@ -129,7 +129,7 @@
 				<div class="title-box"><h1 class="block-title wow animated rollIn">
 				<span class="bb-top-left"></span>
 				<span class="bb-bottom-left"></span>
-				<?php echo $LANG['mrvt-1']; ?>
+				ОСОБЕННОСТИ
 				<span class="bb-top-right"></span>
 				<span class="bb-bottom-right"></span>
 				</h1></div>
@@ -139,22 +139,23 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
 						<i class="ion-ios-settings" style="color:#9b59b6;"></i>
-						<h2><?php echo $LANG['mrvt-2']; ?></h2>
-						<p><?php echo $LANG['mrvt-3']; ?></p>
+						<h2>Настройка</h2>
+						<p>
+Все самые необходимые настройки и функции </p>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
 						<i class="ion-ios-locked-outline" style="color:#d35400;"></i>
-						<h2><?php echo $LANG['mrvt-4']; ?></h2>
-						<p><?php echo $LANG['mrvt-5']; ?></p>
+						<h2>Защита</h2>
+						<p>Надежная защита ваших персональных данных</p>
 					</div>
 				</div>				
 				<div class="col-sm-6 col-md-4">
 					<div class="feature-box wow animated flipInX" data-wow-delay="0.6s">
 						<i class="ion-ios-loop" style="color:#27ae60;"></i>
-						<h2><?php echo $LANG['mrvt-6']; ?></h2>
-						<p><?php echo $LANG['mrvt-7']; ?></p>
+						<h2>Общение</h2>
+						<p>Возможность поделится своими мыслями на огромную аудиторию</p>
 					</div>
 				</div>
 				
@@ -197,7 +198,7 @@
 				</div>
 			</section>
 		</section>
-	</section------->
+	</section>
 
 	
 
