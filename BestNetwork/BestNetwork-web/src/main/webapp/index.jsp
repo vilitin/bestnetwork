@@ -211,11 +211,11 @@
 				<section class="row">
 					<div class="col-sm-6">
 						<h1 class="footer-logo">
-							<a href="https://asterios.ws/">Asterios Social Network</a>
+							<a href="https://asterios.ws/">Best Social Network</a>
 						</h1>
 					</div>
 					<div class="col-sm-6">
-						<p class="copyright">All &copy; Copyright Reserved 2017</p>
+						<p class="copyright">All &copy; Copyright Reserved 2018</p>
 					</div>
 				</section>
 			</section>
