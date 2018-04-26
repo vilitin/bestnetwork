@@ -42,6 +42,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <servlets.version>3.0.1</servlets.version>
         <jstl.version>1.2</jstl.version>
+         <spring.version>4.3.4.RELEASE</spring.version>
     </properties>
   
 </project>
