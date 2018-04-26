@@ -21,5 +21,6 @@
   <modules>
   	<module>BestNetwork-service</module>
   	<module>BestNetwork-web</module>
+  	<module>BestNetwork-rest</module>
   </modules>
 </project>
