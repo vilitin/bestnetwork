@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>by.pro</groupId>
   <artifactId>BestNetwork</artifactId>
-  <packaging>pom</packaging>
+  <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>BestNetwork Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -18,8 +18,4 @@
   <build>
     <finalName>BestNetwork</finalName>
   </build>
-  <modules>
-  	<module>BestNetwork-service</module>
-  	<module>BestNetwork-web</module>
-  </modules>
 </project>
